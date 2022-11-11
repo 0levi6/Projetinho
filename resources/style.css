@@ -1,0 +1,161 @@
+header {
+    background: #2ea2be;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #184d5b;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #cf5675;
+    text-decoration: underline;
+}
+
+.menu {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.load {
+    padding: 50px 50px;
+}
+
+.produtos li:hover {
+    border-color: #cf5675;
+}
+
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos li:active h2 {
+    font-size: 34px;
+}
+
+.menu h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-descricao {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: #2ea2be;
+    padding: 20px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+main .texto-principal {
+    display: block;
+    width: auto;
+    background-color: rgb(250, 250, 250);
+    padding: 0px 50px;
+}
+
+.titulo {
+    padding: 45px 0 15px 0;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.subtitulo {
+    padding: 15px 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+}
+
+.texto {
+    padding: 15px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 20px 0;
+    background: #2ea2be;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: green;
+}

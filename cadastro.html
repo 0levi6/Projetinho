@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>New Game - Cadastro</title>
+
+        <link rel="stylesheet" href="resources/reset.css">
+        <link rel="stylesheet" href="resources/style.css"> 
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="resources/logo.png"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="newsletter.html">Newsletter</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form action="newsletter.html">
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="email">Confirme seu email</label>
+                <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" class="input-padrao" required>
+
+                <label for="senha">Confirmar Senha</label>
+                <input type="password" id="conf-senha" class="input-padrao" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrao" required placeholder="(XX) X XXXX-XXXX">
+                
+                <div>
+                    <p>Como prefere receber as últimas atualizações?</p>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>Email</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                </div>
+
+                <input type="submit" value="New Game" class="enviar">
+            </form>
+        </main>
+
+        <footer>
+            <img src="resources/logo-footer.png">
+            <p class="copyright">&copy; Blogames - 2022</p>
+        </footer>
+    </body>
+</html>

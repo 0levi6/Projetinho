@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Load Game - Login</title>
+
+        <link rel="stylesheet" href="resources/reset.css">
+        <link rel="stylesheet" href="resources/style.css"> 
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="resources/logo.png"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="newsletter.html">Newsletter</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form action="newsletter.html">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" class="input-padrao" required>
+
+                <input type="submit" value="Load Game" class="enviar">
+            </form>
+
+        </main>
+
+        <footer>
+            <img src="resources/logo-footer.png">
+            <p class="copyright">&copy; BloGames - 2022</p>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
